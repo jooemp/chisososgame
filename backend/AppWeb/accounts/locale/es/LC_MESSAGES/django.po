@@ -1,0 +1,557 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-24 02:04-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: forms.py:39 serializers.py:51
+#, fuzzy
+#| msgid "this email is already registered"
+msgid "A user with that email already exists."
+msgstr "este correo ya esta registrado"
+
+#: models.py:11
+msgid "telephone"
+msgstr "teléfono"
+
+#: templates/accounts/email/email_reset.html:4
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr ""
+"Estas recibiendo este correo porque se solicitó restaurar su contraseña\n"
+"        para tu cuenta en %(site_name)s"
+
+#: templates/accounts/email/email_reset.html:6
+#: templates/accounts/email/email_reset.txt:6
+msgid "Please go to the following page and choose a new password:"
+msgstr "Por favor, ve a la siguiente página y escoge una nueva contraseña"
+
+#: templates/accounts/email/email_reset.html:11
+#: templates/accounts/email/email_reset.txt:10
+msgid "Your username, in case you've forgotten:"
+msgstr "Tu usuario, en caso de haberlo olvidado"
+
+#: templates/accounts/email/email_reset.html:13
+#: templates/accounts/email/email_reset.txt:12
+msgid "Thanks for using our site!"
+msgstr "Gracias por registrarte en nuestra app"
+
+#: templates/accounts/email/email_reset.html:15
+#: templates/accounts/email/email_reset.txt:14
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "El equipo %(site_name)s"
+
+#: templates/accounts/email/email_reset.txt:3
+#, python-format
+msgid ""
+"You're receiving this e-mail because you requested a password reset\n"
+"        for your user account at %(site_name)s"
+msgstr ""
+"Estas recibiendo este correo porque se solicitó restaurar su contraseña\n"
+"        para tu cuenta en %(site_name)s"
+
+#: templates/accounts/login.html:6
+#, fuzzy
+#| msgid "You are logged like "
+msgid "You are logged like"
+msgstr "Haz iniciado sesión como "
+
+#: templates/accounts/login.html:7
+msgid "logout ?"
+msgstr ""
+
+#: templates/accounts/login.html:34
+#, fuzzy
+#| msgid "Do you forgot your password?"
+msgid "Forgot your password?"
+msgstr "¿Olvidaste tu contraseña?"
+
+#: templates/accounts/login.html:41
+msgid "register now"
+msgstr "registrate ahora"
+
+#: templates/accounts/password/password_reset_complete.html:6
+#: templates/accounts/password/password_reset_confirm.html:7
+msgid "Home"
+msgstr ""
+
+#: templates/accounts/password/password_reset_complete.html:7
+msgid "Password reset"
+msgstr "Resetear password"
+
+#: templates/accounts/password/password_reset_complete.html:16
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr "Tu contraseña ha sido enviada. Sigue adelante e Ingresa ahora"
+
+#: templates/accounts/password/password_reset_complete.html:18
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+#: templates/accounts/password/password_reset_confirm.html:8
+#, fuzzy
+#| msgid "Password confirmation"
+msgid "Password reset confirmation"
+msgstr "Confirmación de contraseña"
+
+#: templates/accounts/password/password_reset_confirm.html:18
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+
+#: templates/accounts/password/password_reset_confirm.html:24
+#, fuzzy
+#| msgid "password"
+msgid "New password:"
+msgstr "Contraseña"
+
+#: templates/accounts/password/password_reset_confirm.html:29
+#, fuzzy
+#| msgid "Change password"
+msgid "Confirm password:"
+msgstr "Cambiar contraseña"
+
+#: templates/accounts/password/password_reset_confirm.html:32
+#, fuzzy
+#| msgid "Change password"
+msgid "Change my password"
+msgstr "Cambiar contraseña"
+
+#: templates/accounts/password/password_reset_confirm.html:38
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+
+#: templates/accounts/password/password_reset_done.html:12
+#: templates/accounts/password/password_reset_form.html:40
+msgid "login"
+msgstr "iniciar sesión"
+
+#: templates/accounts/password/password_reset_form.html:10
+msgid "did you forget your password?"
+msgstr "¿Olvidaste tu contraseña?"
+
+#: templates/accounts/password/password_reset_form.html:13
+msgid "You will be sent a message with instructions to restore your password"
+msgstr ""
+"Se te enviará un mensaje con las instrucciones para restaurar tu contraseña"
+
+#: templates/accounts/password/password_reset_form.html:17
+#: templates/accounts/signup.html:7
+msgid "You are logged like "
+msgstr "Haz iniciado sesión como "
+
+#: templates/accounts/password/password_reset_form.html:26
+msgid "reset password"
+msgstr "Recuperar contraseña"
+
+#: utils.py:24
+#, fuzzy
+#| msgid "Welcome to"
+msgid "Welcome to AppWeb!"
+msgstr "Bienvenido a"
+
+#: views.py:39
+msgid "Signup"
+msgstr ""
+
+#~ msgid "email"
+#~ msgstr "correo electrónico"
+
+#~ msgid "DNI must contain 8 digits"
+#~ msgstr "DNI debe contener 8 digitos"
+
+#~ msgid "Save"
+#~ msgstr "Guardar"
+
+#~ msgid "Email"
+#~ msgstr "correo electrónico"
+
+#~ msgid "Reset password"
+#~ msgstr "Recuperar contraseña"
+
+#~ msgid "create new user"
+#~ msgstr "crear un nuevo usuario"
+
+#~ msgid "Create new user"
+#~ msgstr "crear nuevo usuario"
+
+#~ msgid "The two password fields didn't match."
+#~ msgstr "Las contraseñas no coinciden"
+
+#~ msgid "Password"
+#~ msgstr "Contraseña"
+
+#~ msgid "Enter the same password as above, for verification."
+#~ msgstr "Ingrese la misma contraseña"
+
+#~ msgid "name"
+#~ msgstr "nombres"
+
+#~ msgid "last name"
+#~ msgstr "apellidos"
+
+#~ msgid "company"
+#~ msgstr "empresa"
+
+#~ msgid "occupation"
+#~ msgstr "ocupación"
+
+#~ msgid "country"
+#~ msgstr "país"
+
+#~ msgid "events per year"
+#~ msgstr "¿Cuantos eventos realiza al año?"
+
+#~ msgid "referred by"
+#~ msgstr "¿Como se entero de nosotros?"
+
+#~ msgid "email already exists like a client"
+#~ msgstr "este correo ya esta registrado"
+
+#~ msgid "Welcome to %(slug)s!"
+#~ msgstr "Bienvenido a %(slug)s!"
+
+#~ msgid "man"
+#~ msgstr "masculino"
+
+#~ msgid "woman"
+#~ msgstr "femenino"
+
+#~ msgid "alternative email"
+#~ msgstr "correo opcional"
+
+#~ msgid "dni"
+#~ msgstr "dni"
+
+#~ msgid "phone number"
+#~ msgstr "teléfono"
+
+#~ msgid "photo"
+#~ msgstr "foto"
+
+#~ msgid "gender"
+#~ msgstr "genero"
+
+#~ msgid "address"
+#~ msgstr "dirección"
+
+#~ msgid "birth date"
+#~ msgstr "fecha de cumpleaños"
+
+#~ msgid "resume"
+#~ msgstr "curriculum vitae"
+
+#~ msgid "facebook"
+#~ msgstr "facebook"
+
+#~ msgid "linkedin"
+#~ msgstr "linkedin"
+
+#~ msgid "twitter"
+#~ msgstr "twitter"
+
+#~ msgid "website"
+#~ msgstr "sitio web"
+
+#~ msgid "select one"
+#~ msgstr "seleccione uno"
+
+#~ msgid "social networks"
+#~ msgstr "redes sociales"
+
+#~ msgid "newspapers"
+#~ msgstr "prensa escrita"
+
+#~ msgid "tv"
+#~ msgstr "televisión"
+
+#~ msgid "radio"
+#~ msgstr "radio"
+
+#~ msgid "internet"
+#~ msgstr "internet"
+
+#~ msgid "friends"
+#~ msgstr "amigos"
+
+#~ msgid "less than 10"
+#~ msgstr "menos de 10"
+
+#~ msgid "more than 200"
+#~ msgstr "más de 200"
+
+#~ msgid "Edit profile"
+#~ msgstr "Editar perfil"
+
+#~ msgid "create an account"
+#~ msgstr "crear una cuenta"
+
+#~ msgid "(*) required fields"
+#~ msgstr "(*) Campos requeridos"
+
+#~ msgid "Hello"
+#~ msgstr "Hola"
+
+#, fuzzy
+#~| msgid ""
+#~| "\n"
+#~| "                                                    We are happy you "
+#~| "have registered to %(event_short_name)s, you can\n"
+#~| "                                                    follow us  <a href="
+#~| "\"%(url_to_review)s\"\n"
+#~| "                                                                  style="
+#~| "\"color: #3572b0; text-decoration:none;\">\n"
+#~| "                                                    here</a>\n"
+#~| "                                                    .\n"
+#~| "                                                "
+#~ msgid ""
+#~ "\n"
+#~ "                        We are happy you have registered to "
+#~ "%(event_short_name)s, you can\n"
+#~ "                        follow us  <a href=\"%(url_to_review)s\"\n"
+#~ "                                      style=\"color: #3572b0; text-"
+#~ "decoration:none;\">\n"
+#~ "                        here</a>\n"
+#~ "                        .\n"
+#~ "                    "
+#~ msgstr ""
+#~ "\n"
+#~ "                                                    Estamos contentos que "
+#~ "tehayas registrado al %(event_short_name)s, puedes\n"
+#~ "                                                    seguirnos  <a href="
+#~ "\"%(url_to_review)s\"\n"
+#~ "                                                                  style="
+#~ "\"color: #3572b0; text-decoration:none;\">\n"
+#~ "                                                    aquí</a>\n"
+#~ "                                                    .\n"
+#~ "                                                "
+
+#~ msgid "If you have any questions, contact us to "
+#~ msgstr "Si tienes algun pregunta contactanos a"
+
+#~ msgid "Cheers,"
+#~ msgstr "Saludos,"
+
+#~ msgid ""
+#~ "\n"
+#~ "                        The %(event_short_name)s team\n"
+#~ "                    "
+#~ msgstr ""
+#~ "\n"
+#~ "                                                    El equipo "
+#~ "%(event_short_name)s \n"
+#~ "                                                "
+
+#~ msgid "Hi"
+#~ msgstr "Hola"
+
+#~ msgid "In a short while to complete your registration"
+#~ msgstr "Ya estamos por terminar tu registro"
+
+#~ msgid ", select your a payment method"
+#~ msgstr ", selecciona tu metodo de pago"
+
+#~ msgid "option"
+#~ msgstr "opción"
+
+#~ msgid "bank deposit"
+#~ msgstr "deposito bancario"
+
+#~ msgid "send"
+#~ msgstr "enviar"
+
+#~ msgid "using"
+#~ msgstr "usando"
+
+#~ msgid "next"
+#~ msgstr "siguiente"
+
+#~ msgid "card"
+#~ msgstr "tarjeta"
+
+#~ msgid "or new author"
+#~ msgstr "o nuevo autor"
+
+#~ msgid "do not have an account yet?"
+#~ msgstr "¿Aún no tienes una cuenta?"
+
+#~ msgid "Password reset completed"
+#~ msgstr "Reseteo de contraseña completado"
+
+#~ msgid "Set a new password"
+#~ msgstr "Cambiar contraseña"
+
+#~ msgid "Password reset unsuccessful"
+#~ msgstr "Contraseña no ha sido actualizada"
+
+#~ msgid "register "
+#~ msgstr "registrar "
+
+#~ msgid "please before you apply your paper register like an author or "
+#~ msgstr "por favor, antes de presentar tu articulo, registrate como autor o"
+
+#~ msgid "how register?"
+#~ msgstr "¿Como inscribirse?"
+
+#~ msgid ""
+#~ "\n"
+#~ "                            Hi %(name)s, please write a password\n"
+#~ "                        "
+#~ msgstr ""
+#~ "\n"
+#~ "            Hola %(name)s, Por favor actualiza tu contraseña\n"
+#~ "        "
+
+#~ msgid "Wrong user or password"
+#~ msgstr "Usuario o Contraseña incorrecta"
+
+#~ msgid "Login"
+#~ msgstr "Ingresar"
+
+#~ msgid "Logged out"
+#~ msgstr "Sesión cerrada"
+
+#~ msgid "Welcome"
+#~ msgstr "Bienvenido"
+
+#~ msgid "Register"
+#~ msgstr "¿Como inscribirse?"
+
+#~ msgid "You information have been updated."
+#~ msgstr "Tu información ha sido actualizada"
+
+#~ msgid "Success"
+#~ msgstr "Exito"
+
+#~ msgid ""
+#~ "Are you sure you are simple user?, maybe you want go to the <a href="
+#~ "\"%(url)s\">admin panel</a>"
+#~ msgstr ""
+#~ "Estas seguro que eres un simple usuario?, quizas quieras ir al <a href="
+#~ "\"%(url)s\">panel de administración</a>"
+
+#~ msgid ""
+#~ "<strong>We have sent you an email!</strong> Please, follow the "
+#~ "instructions to reset your password."
+#~ msgstr ""
+#~ "<strong>¡Te hemos enviado un correo</strong> Por favor, sigue las "
+#~ "instrucciones para recuperar tu contraseña."
+
+#~ msgid "<strong>Success!</strong> You have changed your password."
+#~ msgstr "<strong>¡Éxito!</strong> Has cambiado tu contraseña."
+
+#~ msgid ""
+#~ "Your register is not approved yet, would you like contact us? "
+#~ "%(main_mail)s"
+#~ msgstr ""
+#~ "Tu registro no ha sido aprobaoo aún, ¿te gustaría contactarnos? "
+#~ "%(main_mail)s"
+
+#~ msgid ""
+#~ "You don't have a register, you can request one <a href=\"%(url)s"
+#~ "\">clicking here</a>"
+#~ msgstr ""
+#~ "No estas registrado, puedes solicitarlo <a href=\"%(url)s\">haciendo "
+#~ "click aquí</a>"
+
+#~ msgid "Password reset sent"
+#~ msgstr "Reseteo de password enviada"
+
+#~ msgid "Enter new password"
+#~ msgstr "Ingresar nueva contraseña"
+
+#~ msgid "Password reset complete"
+#~ msgstr "Resteo de contraseña completada"
+
+#~ msgid "Password change"
+#~ msgstr "Contraseña actualizada"
+
+#~ msgid "Password change successful"
+#~ msgstr "Contraseña actualizada exitosamente"
+
+#~ msgid "register"
+#~ msgstr "registro"
+
+#~ msgid "already have an account?"
+#~ msgstr "¿Ya tienes una cuenta?"
+
+#~ msgid "Sincerely"
+#~ msgstr "Sinceramente"
+
+#~ msgid "emesh"
+#~ msgstr "eMesh"
+
+#~ msgid "Login to your account here"
+#~ msgstr "Ingrese a su cuenta aqui"
+
+#~ msgid "Forgot your password? Click here"
+#~ msgstr "¿Olvidaste tu contraseña? Click aqui"
+
+#, fuzzy
+#~| msgid ""
+#~| "You're receiving this e-mail because you requested a password reset\n"
+#~| "        for your user account at %(site_name)s"
+#~ msgid ""
+#~ "You're receiving this e-mail because you requested a password reset\n"
+#~ "        for your user account at %(site_name)s\n"
+#~ "    "
+#~ msgstr ""
+#~ "Estas recibiendo este correo porque se solicitó restaurar su contraseña\n"
+#~ "        para tu cuenta en %(site_name)s"
+
+#~ msgid ""
+#~ "You're receiving this e-mail because you requested a password reset for "
+#~ "your user account at"
+#~ msgstr ""
+#~ "Estas recibiendo este correo porque se solicitó restaurar su contraseña\n"
+#~ "        para tu cuenta en"
+
+#~ msgid "Please go to the following page and choose a new password"
+#~ msgstr "Por favor, ve a la siguiente página y escoge una nueva contraseña"
+
+#~ msgid "Your username, in case you've forgotten"
+#~ msgstr "Tu usuario, en caso de haberlo olvidado"
+
+#~ msgid "The"
+#~ msgstr "El"
+
+#~ msgid "team"
+#~ msgstr "equipo"
+
+#~ msgid "Welcome %(name)s"
+#~ msgstr "Bienvenido a %(slug)s!"
+
+#~ msgid "Check your email"
+#~ msgstr "Revisa tu correo électronico"
+
+#~ msgid "We've emailed you instructions for recovering your password."
+#~ msgstr "The hemos enviado instrucciones para que restaures tu contraseña"
+
+#~ msgid ""
+#~ "Please make sure you've entered the address you registered with, and "
+#~ "check your spam folder."
+#~ msgstr ""
+#~ "Por favor, asegurate de haber ingresado el correo con el que te "
+#~ "registraste, y revisa tu buzon de correos no deseados"
+
+#~ msgid "Go to home"
+#~ msgstr "Ir al inicio"
