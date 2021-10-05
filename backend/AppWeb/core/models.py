@@ -20,9 +20,9 @@ class Games(models.Model):
     name = models.CharField(max_length=40)
     image = models.ImageField(upload_to="images/games")
     rules = models.TextField()
-    first= models.IntegerField()
-    second = models.IntegerField()
-    thrid = models.IntegerField()
+    first= models.IntegerField(default=0)
+    second = models.IntegerField(default=0)
+    thrid = models.IntegerField(default=0)
 
 class ChooseCharacter(models.Model):
     player = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
