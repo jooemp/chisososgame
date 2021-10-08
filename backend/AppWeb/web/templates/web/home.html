@@ -1,10 +1,253 @@
 {% extends 'web/layout.html' %}
 {% load static %}
 {% block container %}
-<div>
-    <h1>Juegos Chisosos</h1>
-    <h3>Offline</h3>
-    <h3>w a i t . . . .</h3>
-</div>
+
+<section id="about" class="light">
+    <header class="title">
+      <h2>About <span>Us</span></h2>
+      <p>Lorem ipsum Esse esse cillum nisi cillum deserunt tempor ut pariatur qui officia. Lorem ipsum Magna eu irure sint <strong>occaecat</strong> cupidatat dolore minim irure cillum.</p>
+    </header>
+
+    <div class="container">
+      <div class="row table-row">
+        <div class="col-sm-6 hidden-xs">
+          <div class="section-content">
+            <div class="big-image" style="background-image:url({% static 'images/1.png' %})"></div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="section-content">
+            <div class="about-content left animated" data-animate="fadeInLeft">
+              <div class="about-icon"><i class="fa fa-code"></i></div>
+              <div class="about-detail">
+                <h4>Clean Code</h4>
+                <p>Lorem ipsum Ad nisi dolore ut sit do dolor commodo sint ullamco. Lorem ipsum Magna enim eu irure sit eiusmod fugiat et. Lorem ipsum Consequat in cupidatat cupidatat non in non veniam dolore.</p>
+              </div>
+            </div>
+
+            <div class="about-content left animated" data-animate="fadeInLeft">
+              <div class="about-icon"><i class="fa fa-desktop"></i></div>
+              <div class="about-detail">
+                <h4>Fully Responsive</h4>
+                <p>Lorem ipsum Ex labore dolor magna in proident ad reprehenderit consequat irure nostrud quis. Lorem ipsum Veniam velit non cupidatat nulla et proident.</p>
+              </div>
+            </div>
+
+            <div class="about-content left animated" data-animate="fadeInLeft">
+              <div class="about-icon"><i class="fa fa-cube"></i></div>
+              <div class="about-detail">
+                <h4>Multipurpose Design</h4>
+                <p>Lorem ipsum Ea quis sint sint aliquip qui exercitation commodo non cupidatat do reprehenderit dolor. Lorem ipsum Non et minim incididunt sed labore in amet ea est pariatur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /.row table-row -->
+    </div> <!-- /.container -->
+  </section>
+  
+  
+      <!-- PORTFOLIO -->
+
+  <section id="portfolio" class="light">
+    <header class="title">
+      <h2>Portfolio</h2>
+      <p>Lorem ipsum Cupidatat sit irure nostrud ut deserunt ad enim id laboris. Lorem ipsum Enim proident et eu et minim voluptate eiusmod ullamco commodo aliqua amet.</p>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row">
+        <ul id="filters" class="list-inline">
+          <li data-filter="all" class="filter">All</li>
+          <li data-filter=".branding" class="filter">Branding</li> 
+          <li data-filter=".graphic" class="filter">Graphic</li> 
+          <li data-filter=".printing" class="filter">Printing</li> 
+          <li data-filter=".video" class="filter">Video</li> 
+        </ul>
+      </div>
+
+      <div class="row">
+        <div class="container-portfolio">
+          <!-- PORTFOLIO OBJECT -->
+          <script type="text/javascript">
+          var portfolio = [
+                  {
+                    category : "branding",
+                    image : "images/p-1.png",
+                    title : "Charming <span>Roxy</span>",
+                    link : "#none",
+                    text : "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
+                  },
+                  {
+                    category : "graphic",
+                    image : "images/p-2.png",
+                    title : "Fresh <span>Bubba</span>",
+                    link : "#none",
+                    text : "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
+                  },
+                  {
+                    category : "graphic",
+                    image : "images/p-3.png",
+                    title : "Wild <span>Romeo</span>",
+                    link : "#none",
+                    text : "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
+                  },
+                  {
+                    category : "video",
+                    image : "images/p-4.png",
+                    title : "Strange <span>Dexter</span>",
+                    link : "#none",
+                    text : "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
+                  },
+                  {
+                    category : "branding",
+                    image : "images/p-5.png",
+                    title : "Free <span>Sarah</span>",
+                    link : "#none",
+                    text : "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
+                  },
+                  {
+                    category : "printing",
+                    image : "images/p-6.png",
+                    title : "Chico <span>Silly</span>",
+                    link : "#none",
+                    text : "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
+                  },
+                  {
+                    category : "printing",
+                    image : "images/p-7.png",
+                    title : "IG <span>Shop</span>",
+                    link : "#none",
+                    text : "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
+                  },
+                  {
+                    category : "printing",
+                    image : "images/p-8.png",
+                    title : "Tana <span>Samawa</span>",
+                    link : "#none",
+                    text : "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
+                  }
+              ];
+          </script>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- TEAM -->
+
+  <section id="team" class="light">
+    <header class="title">
+      <h2>Creative <span>Team</span></h2>
+      <p>Lorem ipsum Dolor et reprehenderit laborum deserunt aliquip incididunt tempor id non. Lorem ipsum Fugiat anim labore cupidatat consequat non in sit dolore anim anim consequat nisi.</p>
+    </header>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 text-center">
+          <div class="wrap animated" data-animate="fadeInDown">
+            <div class="img-team">
+              <img src="images/team-1.png" alt="" class="img-circle">
+            </div>
+
+            <h3>John Doe</h3>
+            <h5>Creative Director</h5>
+
+            <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.</p>
+
+            <div class="team-social">
+              <ul class="list-inline social-list">
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-google-plus"></a></li>
+              </ul> 
+            </div>                
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <div class="wrap animated" data-animate="fadeInDown"> 
+            <div class="img-team">
+              <img src="images/team-2.png" alt="" class="img-circle">
+            </div>
+
+            <h3>Ellie Morgan</h3>
+            <h5>Designer</h5>
+
+            <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.</p>
+
+            <div class="team-social">
+              <ul class="list-inline social-list">
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-google-plus"></a></li>
+              </ul> 
+            </div>                
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <div class="wrap animated" data-animate="fadeInDown"> 
+            <div class="img-team">
+              <img src="images/team-3.png" alt="" class="img-circle">
+            </div>
+
+            <h3>Elche</h3>
+            <h5>Developer</h5>
+
+            <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.</p>
+
+            <div class="team-social">
+              <ul class="list-inline social-list">
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-google-plus"></a></li>
+              </ul> 
+            </div>                
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <div class="wrap animated" data-animate="fadeInDown"> 
+            <div class="img-team">
+              <img src="images/team-4.png" alt="" class="img-circle">
+            </div>
+
+            <h3>JF Thiago</h3>
+            <h5>Commerce</h5>
+
+            <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.</p>
+
+            <div class="team-social">
+              <ul class="list-inline social-list">
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-google-plus"></a></li>
+              </ul> 
+            </div>                
+          </div>
+        </div>
+      </div>
+    </div> <!-- /.container -->
+  </section>
+ 
+  
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>Made BY <i class="fa fa-heart"></i> <a href="http://templatestock.co">Template Stock</a></p>
+          <p><small>Images : unsplash.com</small></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
  
 {% endblock %}
