@@ -175,4 +175,4 @@ FIXTURES_PATH = os.path.join(os.path.dirname(os.path.dirname(BASE_DIR)), '../dem
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
-CONTACT_EMAIL = 'lacomunidad@gmail.com'
+CONTACT_EMAIL = 'chisososgame@gmail.com'
