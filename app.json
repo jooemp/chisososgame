@@ -29,7 +29,7 @@
     "papertrail",    
     "sendgrid"
   ],
-  "stack": "heroku-16",
+  "stack": "heroku-18",
   "buildpacks": [
     {
       "url": "heroku/python"
