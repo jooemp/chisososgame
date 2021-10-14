@@ -8,14 +8,13 @@
 {% else %}
 <div class="card fat">
     <div class="card-body">
-      <h4 class="card-title">Login</h4>              
         <form action="." method="post">
             {% csrf_token %}
             {{ form.non_field_errors }}            
             {% for field in form %}
-            <div class="form-group">
-              <label for="id_{{field.name}}">{{field.label}}</label>
-              {{field}}
+            <div class="form-group row">
+              <label for="id_{{field.name}}" class="col-sm-5 form-control-sm">{{field.label}}</label>
+              <div class="col-sm-7 form-control-sm">{{field}}</div>
               <small id="id_{{field.name}}_help" class="form-text text-muted">{{field.help_text}}</small>
             </div>
             {% endfor %}
@@ -25,7 +24,7 @@
               <input type="hidden" name="next" value="{{request.GET.next}}" />
             {% endif %}
             <div class="form-group no-margin">
-              <button type="submit" class="btn btn-primary btn-block">
+              <button type="submit" class="btn btn-secondary btn-sm">
                 Ingresar
               </button>
             </div>

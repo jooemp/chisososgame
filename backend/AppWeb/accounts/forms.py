@@ -83,6 +83,6 @@ class CustomAuthenticationForm(AuthenticationForm):
         for field in self.fields:
             self.fields[field].widget.attrs.update(
                 {
-                    'class': 'form-control',
+                    'class': 'form-control-sm',
                 }
             )
